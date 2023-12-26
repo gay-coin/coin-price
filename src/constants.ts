@@ -54,7 +54,7 @@ export const BASE_TOKEN_DECIMALS = 6;
  * URL to direct users to buy the token.
  */
 export const SWAP_LINK =
-  "https://neutron.astroport.fi/swap?to=factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt&from=untrn";
+  "https://app.astroport.fi/swap?from=untrn&to=factory/neutron1lg8nydf8nagrrp2f72y5mk9newv2gs6a3mm3cn/GAY";
 
 /**
  * Accent color used throughout the app.
