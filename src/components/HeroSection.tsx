@@ -37,7 +37,7 @@ const HeroSection = ({
       <div className="space-y-2">
           <div className="text-center font-black text-xl"><button onClick={areYouGay} className="text-center font-black text-xl">Are you gay?</button></div>
         <p className="text-center font-black text-xl">
-          <button onClick={areYouGay} className="text-center font-black text-xl">Are you gay?</button>
+        
           <a
             className="text-cyan-400 underline"
             href={SWAP_LINK}
