@@ -27,14 +27,13 @@ const HeroSection = ({
 
   return (
     <div className="space-y-6">
-      <Image id="gay"
+      <img id="gay"
         alt={`${TOKEN_SYMBOL} logo`}
         onClick={areYouGay}
         className="w-52 mx-auto"
         src="/logo.png"
         width={208}
         height={208}
-        priority
       />
       <div className="space-y-2">
         <p className="text-center font-black text-xl">
