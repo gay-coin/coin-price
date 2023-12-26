@@ -12,13 +12,13 @@ export const RPC_URL = "https://rpc-neutron.whispernode.com";
  *
  */
 export const POOL_ADDRESS =
-  "neutron1f2ufsltxt9w0puxqsesacsl83t54qgmlehag762h3whjg9y66epstear2d";
+  "neutron1epg2h5cnz9m677xe82r2zqdrj90u2th6spadm09mezcfwcxq9zwschacrj";
 
 /**
  * Address of token to display price of.
  */
 export const TOKEN_ADDRESS =
-  "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt";
+  "factory/neutron1lg8nydf8nagrrp2f72y5mk9newv2gs6a3mm3cn/GAY";
 
 /**
  * Type of token, either "native" or "cw20"
