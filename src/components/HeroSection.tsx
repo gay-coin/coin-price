@@ -19,7 +19,9 @@ const HeroSection = ({
 
 
     function areYouGay(){
+      // @ts-ignore
       const gay_element = document.getElementById("gay");
+      // @ts-ignore
       gay_element.src = "https://gcdnb.pbrd.co/images/mMwWrB1CTkZ8.gif"
   }
 
