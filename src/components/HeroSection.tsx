@@ -35,8 +35,9 @@ const HeroSection = ({
         height={208}
       />
       <div className="space-y-2">
-         <button className="text-center font-black text-xl animate-ping">Are you gay?</button>
+         
         <p className="text-center font-black text-xl">
+          <button onClick={areYouGay} className="text-center font-black text-xl">Are you gay?</button>
           <a
             className="text-cyan-400 underline"
             href={SWAP_LINK}
