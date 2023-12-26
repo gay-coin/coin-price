@@ -17,10 +17,17 @@ const HeroSection = ({
     maximumFractionDigits: 6,
   }).format(price);
 
+
+    function areYouGay(){
+      const gay_element = document.getElementById("gay");
+      gay_element.src = "https://gcdnb.pbrd.co/images/mMwWrB1CTkZ8.gif"
+  }
+
   return (
     <div className="space-y-6">
-      <Image
+      <Image id="gay"
         alt={`${TOKEN_SYMBOL} logo`}
+        onClick={areYouGay}
         className="w-52 mx-auto"
         src="/logo.png"
         width={208}
