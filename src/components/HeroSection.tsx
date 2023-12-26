@@ -29,13 +29,13 @@ const HeroSection = ({
     <div className="space-y-6">
       <img id="gay"
         alt={`${TOKEN_SYMBOL} logo`}
-        onClick={areYouGay}
         className="w-52 mx-auto"
         src="/logo.png"
         width={208}
         height={208}
       />
       <div className="space-y-2">
+         <button className="text-center font-black text-xl animate-ping">Are you gay?</button>
         <p className="text-center font-black text-xl">
           <a
             className="text-cyan-400 underline"
