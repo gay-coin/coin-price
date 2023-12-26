@@ -33,7 +33,7 @@ export const TOKEN_DECIMALS = 6;
 /**
  * Symbol used to display token amounts.
  */
-export const TOKEN_SYMBOL = "NEWT";
+export const TOKEN_SYMBOL = "GAY";
 
 /**
  * Coingecko ID of the other token in the pair, used
@@ -61,4 +61,4 @@ export const SWAP_LINK =
  *
  * Corresponds to a Tailwind color, see https://tailwindcss.com/docs/customizing-colors#color-palette-reference
  */
-export const THEME_COLOR = "teal";
+export const THEME_COLOR = "red";
